@@ -1,0 +1,31 @@
+# Programa Python optimizado para la implementación de Bubble Sort
+
+def burbujaOrdenar(arr):
+	n = longitud(arr)
+
+	# Recorrer todos los elementos de la matriz
+	para i en el rango (n):
+		intercambiado = Falso
+
+		# Los últimos elementos i ya están en su lugar
+		para j en el rango (0, ni-1):
+
+			# Recorrer la matriz de 0 a ni-1
+			# Intercambiar si el elemento encontrado es mayor
+			# que el siguiente elemento
+			si arreglo[j] > arreglo[j+1]:
+				arreglo[j], arreglo[j+1] = arreglo[j+1], arreglo[j]
+				intercambiado = Verdadero
+		si (intercambiado == Falso):
+			romper
+
+
+# Código de controlador para probar arriba
+si __nombre__ == "__principal__":
+	llegada = [64, 34, 25, 12, 22, 11, 90]
+
+	ordenación de burbujas (arr)
+
+	print("Matriz ordenada:")
+	para i en rango(len(arr)):
+		print("%d" % arreglo[i], fin=", ")
